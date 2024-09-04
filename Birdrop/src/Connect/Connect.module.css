@@ -1,0 +1,24 @@
+.walletConnect{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6em 0;
+}
+
+.walletConnect img{
+  width: 50em;
+  margin-bottom: 2em;
+}
+
+.connectButton{
+  font-family: 'More sugar';
+  font-size: 2em;
+  font-weight: 700;
+  background-color: #f9eebf;
+  color: black;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(252, 228, 171, 0.5);
+}

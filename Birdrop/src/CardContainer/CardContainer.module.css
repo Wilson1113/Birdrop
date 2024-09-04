@@ -1,0 +1,25 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff4c5;
+  border-radius: 50px;
+  padding: 1em;
+  font-family: Poppins;
+  font-size: 1.4em;
+  font-weight: bold;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+h2 {
+  border-bottom: 4px solid #ffffff;
+  padding-bottom: 0.4em;
+
+}

@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  margin-top: 1em;
+  font-family: 'More sugar';
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 4em;
+  font-weight: 700;
+  color: #000000;
+}
+
+.logo img{
+  width: 2.3em;
+  margin: 0 -8%;
+}
+
+.logo span{
+  margin-top: 0.2em;
+}
+
+nav {
+  padding-top: 1.5em;
+}
+nav a {
+  margin-right: 1.5em;
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font-size: 1.6em;
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #ba9800;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
