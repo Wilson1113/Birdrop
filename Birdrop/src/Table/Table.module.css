@@ -1,0 +1,60 @@
+.projectTable {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  color: #333;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.projectTable thead th {
+  background: linear-gradient(135deg, #ace3ff, #9fe7ff);
+  padding: 16px;
+  text-align: left;
+  font-weight: 700;
+  color: #fff;
+  border-bottom: 3px solid #ddd;
+}
+
+.projectTable tbody td {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+  transition: background-color 0.3s ease;
+}
+
+.projectTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.projectTable tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.projectTable tbody td img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.projectTable tbody td span {
+  display: block;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.projectTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.projectTable tbody td:first-child {
+  display: flex;
+  align-items: center;
+}
