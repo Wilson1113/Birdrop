@@ -46,3 +46,25 @@ body {
 .sidebar {
   width: auto;
 }
+
+.wallet-adapter-button-trigger {
+  font-family: 'More sugar';
+  font-size: 2em;
+  font-weight: 700;
+  background-color: #f9eebf;
+  color: black;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(252, 228, 171, 0.5);
+  height: auto;
+}
+
+.wallet-adapter-button-trigger:hover{
+  background-color: #f9eebf;
+}
+
+.wallet-adapter-button-trigger i {
+  display: none;
+}

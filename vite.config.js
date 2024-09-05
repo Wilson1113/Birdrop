@@ -5,4 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/Birdrop/",
   plugins: [react()],
+  server: {
+    watch: {
+      usePolling: true,
+    },
+  },
 })
