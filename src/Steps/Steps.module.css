@@ -1,0 +1,17 @@
+.steps {
+  background-color: #fff7c7;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.steps h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+.steps ol {
+  padding-left: 20px;
+}
+.steps li {
+  margin-bottom: 10px;
+}

@@ -18,7 +18,7 @@
   width: 100%;
 }
 
-h2 {
+.cardContainer h2 {
   border-bottom: 4px solid #ffffff;
   padding-bottom: 0.4em;
 

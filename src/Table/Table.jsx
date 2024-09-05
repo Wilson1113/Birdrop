@@ -1,9 +1,13 @@
+import { useNavigate } from 'react-router';
 import styles from './Table.module.css';
 
 export default function Table({airdrops = [], search=''}) {
-
+  const navigate = useNavigate()
+  const handleOnClick = (href) => {
+    navigate(href)
+  }
   const listItem = airdrops.filter(airdrop => search.toLowerCase() === '' ? airdrop : airdrop.name.toLowerCase().includes(search.toLowerCase())).map(airdrop => 
-    <tr key={airdrop.id}>
+    <tr key={airdrop.id} onClick={() => handleOnClick(airdrop.href)}>
       <td>
         <img src={airdrop.source} alt={`${airdrop.name} Logo`} />
         {airdrop.name}

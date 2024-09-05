@@ -4,6 +4,7 @@ import Airdrop from './pages/Airdrop'
 import NoPage from './pages/NoPage'
 import DailyTracker from './pages/DailyTracker'
 import Profile from './pages/Profile'
+import AirdropDetail from './pages/AirdropDetail'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/airdrop' element={<Airdrop/>}/>
           <Route path='/dailytracker' element={<DailyTracker/>}/>
           <Route path='/profile' element={<Profile/>}/>
+          <Route path='/airdropdetail' element={<AirdropDetail/>}/>
           <Route path='*' element={<NoPage/>}/>
         </Routes>
       </BrowserRouter>

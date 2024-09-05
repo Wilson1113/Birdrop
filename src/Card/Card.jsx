@@ -1,8 +1,10 @@
+import { useNavigate } from 'react-router-dom';
 import styles from "./Card.module.css"
 
-function Card({source="", name="", action="", href="/404"}) {
+function Card({source="", name="", action="", href="/Birdrop/404"}) {
+  const navigate = useNavigate();
   const handleOnClick = () => {
-    window.open(href, "_blank");
+    navigate('/airdropdetail')
   };
   return(
     <div className={styles.card} onClick={handleOnClick}>
