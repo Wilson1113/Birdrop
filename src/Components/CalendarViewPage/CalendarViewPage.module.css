@@ -1,0 +1,47 @@
+.mainContent {
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: "fredoka";
+}
+
+.sidebar {
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0);
+  border-radius: 5px;
+  color: black;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.sidebarButton {
+  color: black;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff2bd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.sidebarButton:hover {
+  background-color: #45a049;
+}
+
+.claimableAirdrop {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.claimableAirdrop h3 {
+  margin-top: 0;
+  font-size: 18px;
+}

@@ -3,7 +3,7 @@
   border-collapse: collapse;
   background-color: #ffffff;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Fredoka', sans-serif;
   font-weight: 600;
   font-size: 1em;
   color: #333;
@@ -12,11 +12,11 @@
 }
 
 .projectTable thead th {
-  background: linear-gradient(135deg, #ace3ff, #9fe7ff);
+  background-color: #ffe374;
   padding: 16px;
   text-align: left;
   font-weight: 700;
-  color: #fff;
+  color: #6c5600;
   border-bottom: 3px solid #ddd;
 }
 

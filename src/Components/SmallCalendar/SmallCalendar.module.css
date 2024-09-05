@@ -18,12 +18,12 @@
 }
 .smallCalendarHeader h3 {
   font-size: 20px;
-  color: #ffda47;
+  color: #6c5600;
   margin: 0;
 }
 .smallCalendarNav {
   cursor: pointer;
-  color: #ffe788;
+  color: #6c5600;
   font-size: 24px;
   user-select: none;
 }
@@ -47,7 +47,7 @@
   background-color: #ffe788;
 }
 .currentDate {
-  background-color: #ffd014;
+  background-color: #6c5600;
   color: #fff;
   font-weight: bold;
 }

@@ -3,11 +3,11 @@
   height: 20px;
 }
 .taskLink {
-  color: #ffd83c;
+  color: #6c5600;
   text-decoration: none;
   transition: color 0.3s ease;
   font-weight:500;
 }
 .taskLink:hover {
-  color: #ffcc00;
+  color: #4e3e00;
 }
