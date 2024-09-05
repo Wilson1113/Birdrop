@@ -1,3 +1,5 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from "./Header.module.css"
 import logoPic from "../assets/Birdrop.png"
 
@@ -9,10 +11,10 @@ function Header() {
           <span>Birdrop</span>
       </div>
       <nav >
-          <a href="/home">Home</a>
-          <a href="/airdrop">Airdrop</a>
-          <a href="/dailytracker">Daily tracker</a>
-          <a href="/profile">Profile</a>
+          <Link to="/home">Home</Link>
+          <Link to="/airdrop">Airdrop</Link>
+          <Link to="/dailytracker">Daily tracker</Link>
+          <Link to="/profile">Profile</Link>
       </nav>
     </header>
   );

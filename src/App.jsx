@@ -8,7 +8,7 @@ import Profile from './pages/Profile'
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='/Birdrop/'>
         <Routes>
           <Route index element={<Home/>}/>
           <Route path='/home' element={<Home/>}/>
