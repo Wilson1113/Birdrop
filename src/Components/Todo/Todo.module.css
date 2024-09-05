@@ -1,0 +1,73 @@
+.todoList {
+  flex-grow: 1;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0);
+}
+.todoHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.todoHeader h2 {
+  font-size: 32px;
+  color: #ffda47;
+}
+.dateNav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.dateNav span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.calendarViewBtn {
+  background-color: #ffda47;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Fredoka';
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.calendarViewBtn:hover {
+  background-color: #ffeb99;
+}
+.todoTable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  font-family: 'Fredoka';
+}
+.todoTable th, .todoTable td {
+  padding: 15px;
+  text-align: left;
+  font-size: 18px;
+}
+.todoTable th {
+  background-color: #fff7c7;
+  color: #ffda47;
+  font-weight: 600;
+}
+.todoTable tr {
+  background-color: #fffbe3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.todoTable tr:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.todoTable td:first-child, .todo-table th:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.todoTable td:last-child, .todo-table th:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

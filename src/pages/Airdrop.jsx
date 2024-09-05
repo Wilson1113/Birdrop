@@ -1,5 +1,5 @@
-import Filter from "../Filter/Filter"
-import Header from "../Header/Header"
+import Filter from "../Components/Filter/Filter"
+import Header from "../Components/Header/Header"
 
 
 export default function Airdrop() {

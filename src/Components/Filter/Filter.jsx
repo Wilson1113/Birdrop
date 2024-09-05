@@ -1,16 +1,16 @@
 import React, {useState} from 'react'
 import styles from './Filter.module.css'
-import searchIcon from '../assets/search.svg'
+import searchIcon from '../../assets/search.svg'
 import Table from '../Table/Table'
-import Phantom from "../assets/Phantom.jpg"
-import Rain from "../assets/Rain.png"
-import Sonic from "../assets/Sonic.jpg"
-import Solana from "../assets/Solana.jpg"
-import Magic from "../assets/Magic.jpg"
-import Foot from "../assets/foot.jpg"
-import Jupiter from "../assets/Jupiter.jpg"
-import Kamino from "../assets/Kamino.jpg"
-import Sanctum from "../assets/Sanctum.jpg"
+import Phantom from "../../assets/Phantom.jpg"
+import Rain from "../../assets/Rain.png"
+import Sonic from "../../assets/Sonic.jpg"
+import Solana from "../../assets/Solana.jpg"
+import Magic from "../../assets/Magic.jpg"
+import Foot from "../../assets/foot.jpg"
+import Jupiter from "../../assets/Jupiter.jpg"
+import Kamino from "../../assets/Kamino.jpg"
+import Sanctum from "../../assets/Sanctum.jpg"
 
 export default function Filter() {
 

@@ -1,4 +1,4 @@
-import birdMiao from "../assets/Birdrop.png"
+import birdMiao from "../../assets/Birdrop.png"
 import styles from "./Connect.module.css"
 
 function Connect() {

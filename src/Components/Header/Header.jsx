@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from "./Header.module.css"
-import logoPic from "../assets/Birdrop.png"
+import logoPic from "../../assets/Birdrop.png"
 
 function Header() {
   return(

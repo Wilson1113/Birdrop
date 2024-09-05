@@ -1,0 +1,29 @@
+.projectList {
+  background-color: #ffe374;
+  color: black;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+.projectList h3 {
+  margin-top: 0;
+  font-size: 24px;
+  font-family: More Sugar;
+}
+.projectList ul {
+  list-style-type: none;
+  padding: 0;
+}
+.projectList li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  font-family: poppings;
+  font-weight: bold;
+}
+.projectList li:hover {
+  background-color: #ffeda5;
+}

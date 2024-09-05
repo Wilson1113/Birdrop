@@ -1,5 +1,5 @@
-import Header from "../Header/Header";
-import AirdropCard from "../AirdropCard/AirdropCard";
+import Header from "../Components/Header/Header";
+import AirdropCard from "../Components/AirdropCard/AirdropCard";
 
 export default function AirdropDetail() {
   return(

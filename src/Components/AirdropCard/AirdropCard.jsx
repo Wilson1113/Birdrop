@@ -1,17 +1,14 @@
 import React, {useState} from 'react';
 import styles from './AirdropCard.module.css';
 import StateItem from '../StateItem/StateItem';
-import Phantom from '../assets/Phantom.jpg'
+import Phantom from '../../assets/Phantom.jpg'
 import Steps from '../Steps/Steps';
-import Icon1 from '../assets/statusIcon1.svg'
-import Icon2 from '../assets/statusIcon2.svg'
-import Icon3 from '../assets/statusIcon3.svg'
-import Icon4 from '../assets/statusIcon4.svg'
+import Icon1 from '../../assets/statusIcon1.svg'
+import Icon2 from '../../assets/statusIcon2.svg'
+import Icon3 from '../../assets/statusIcon3.svg'
+import Icon4 from '../../assets/statusIcon4.svg'
 
 export default function AirdropCard() {
-
-  
-
   const textList1 = [
     "Visit the Phantom website", 
     "Download the wallet extension", 
