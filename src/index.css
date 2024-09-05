@@ -61,8 +61,8 @@ body {
   height: auto;
 }
 
-.wallet-adapter-button-trigger:hover{
-  background-color: #f9eebf;
+.wallet-adapter-button:not([disabled]):hover {
+  background-color: #ffe882;
 }
 
 .wallet-adapter-button-trigger i {

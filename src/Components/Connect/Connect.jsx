@@ -46,7 +46,6 @@ function Connect() {
             <WalletProvider wallets={wallets} autoConnect>
                 <WalletModalProvider>
                     <WalletMultiButton>Connect your wallet</WalletMultiButton>
-                    { /* Your app's components go here, nested within the context providers. */ }
                 </WalletModalProvider>
             </WalletProvider>
         </ConnectionProvider>
