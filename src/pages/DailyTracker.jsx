@@ -13,7 +13,7 @@ export default function DailyTracker() {
                 <ProjectList></ProjectList>
             </div>
             <Todo></Todo>
-        </div>
+      </div>
     </>
   )
 }

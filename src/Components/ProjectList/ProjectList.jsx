@@ -5,11 +5,11 @@ export default function ProjectList() {
     <div className={styles.projectList}>
       <h3>Farming List</h3>
       <ul>
-          <li>DeFi Market</li>
-          <li>Jupiter DAO</li>
+          <li>Phantom</li>
+          <li>Sonic</li>
           <li>Magic Eden</li>
           <li>Orca</li>
-          <li>Raydium Dragon ICO</li>
+          <li>Raydium</li>
       </ul>
     </div>
   )

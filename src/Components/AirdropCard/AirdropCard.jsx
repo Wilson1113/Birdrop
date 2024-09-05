@@ -32,9 +32,16 @@ export default function AirdropCard() {
   ]
 
   const [textList, setTextList] = useState(textList1);
+  const [mission, setMission] = useState("Mission 1");
 
-  const handleOnClick1 = () => setTextList(textList1);
-  const handleOnClick2 = () => setTextList(textList2);
+  const handleOnClick1 = () => {
+    setTextList(textList1)
+    setMission("Mission 1")
+  };
+  const handleOnClick2 = () => {
+    setTextList(textList2)
+    setMission("Mission 2")
+  };
 
   return (
     <div className={styles.container}>
@@ -44,7 +51,7 @@ export default function AirdropCard() {
                 <h1>Phantom Wallet</h1>
                 <p>Phantom is a wallet and browser extension that can be used to manage digital assets and access decentralized applications on the Solana blockchain. It works by creating and managing private keys on behalf of its users, allowing them to store funds and sign transactions.</p>
                 <p>Phantom doesn't have a token yet and could potentially launch a token in the future. Phantom has raised $118 million in funding from investors like a16z, Paradigm, and Solana Ventures. There's a rumor that making a swap on the platform may make you eligible for an airdrop if they create their own token.</p>
-                <Steps textList={textList}></Steps>
+                <Steps textList={textList} mission={mission}></Steps>
                 <p>You're interested in more projects that do not have any token yet and could potentially airdrop a governance token to early users in the future? Then check out our list of potential retroactive airdrops to not miss out on the next DeFi airdrop!</p>
                 <p>Don't forget to follow us on Twitter, Telegram, & Facebook and subscribe our newsletter to receive new airdrops!</p>
                 <a href="https://phantom.app/download" className={styles.ctaButton}>Visit Website</a>

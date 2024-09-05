@@ -13,21 +13,21 @@ import Sanctum from "../assets/Sanctum.jpg"
 
 export default function Home() {
   const firstCard = [
-    {id: 1, source:Phantom, name:"Phantom", action:"testtesttest", href:""},
-    {id: 2, source:Rain, name:"Sonic", action:"testtesttest"},
-    {id: 3, source:Sonic, name:"Rain.fi", action:"testtesttest"}
+    {id: 1, source:Phantom, name:"Phantom", action:"Wallet"},
+    {id: 2, source:Sonic, name:"Sonic", action:"GameFi"},
+    {id: 3, source:Rain, name:"Rain.fi", action:"DeFi"}
   ];
 
   const secondCard = [
-    {id: 1, source:Solana, name:"Solana ID", action:"testtesttest"},
-    {id: 2, source:Magic, name:"Magic Eden", action:"testtesttest"},
-    {id: 3, source:Foot, name:"Footmap", action:"testtesttest", href:"https://x.com/foot_map"}
+    {id: 1, source:Solana, name:"Solana ID", action:"Decentralized Identity"},
+    {id: 2, source:Magic, name:"Magic Eden", action:"NFT MarketPlace"},
+    {id: 3, source:Foot, name:"Footmap", action:"DeFi", href:"https://x.com/foot_map"}
   ];
 
   const thirdCard = [
-    {id: 1, source:Jupiter, name:"Jupiter", action:"testtesttest"},
-    {id: 2, source:Kamino, name:"Kamino", action:"testtesttest"},
-    {id: 3, source:Sanctum, name:"Sanctum", action:"testtesttest"}
+    {id: 1, source:Jupiter, name:"Jupiter", action:"DeFi"},
+    {id: 2, source:Kamino, name:"Kamino", action:"DeFi"},
+    {id: 3, source:Sanctum, name:"Sanctum", action:"DeFi"}
   ];
   return(
     <>

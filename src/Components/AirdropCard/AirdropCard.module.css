@@ -107,6 +107,7 @@ p {
   background-color: #fff7c7;
   border-radius: 10px;
   cursor: pointer;
+  font-weight: 500;
 }
 
 .missionBlock:hover{
