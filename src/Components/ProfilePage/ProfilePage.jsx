@@ -130,7 +130,7 @@ const ProfilePage = () => {
             <ul className={styles.tokenList}>
             <li className={styles.tokenItem}>
               <div className={styles.tokenName}>
-                <img src={Solana} class={styles.tokenIcon}/>
+                <img src={Solana} className={styles.tokenIcon}/>
                 SOL
               </div>
               <div className={styles.tokenAmount}>

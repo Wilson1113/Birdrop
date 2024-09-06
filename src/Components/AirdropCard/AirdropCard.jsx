@@ -54,7 +54,7 @@ export default function AirdropCard() {
                 <Steps textList={textList} mission={mission}></Steps>
                 <p>You're interested in more projects that do not have any token yet and could potentially airdrop a governance token to early users in the future? Then check out our list of potential retroactive airdrops to not miss out on the next DeFi airdrop!</p>
                 <p>Don't forget to follow us on Twitter, Telegram, & Facebook and subscribe our newsletter to receive new airdrops!</p>
-                <a href="https://phantom.app/download" className={styles.ctaButton}>Visit Website</a>
+                <a href="https://phantom.app/download"  target="_blank" rel="noopener noreferrer" className={styles.ctaButton}>Visit Website</a>
             </section>
             <aside className={styles.walletStatus}>
                 <h2>Links</h2>

@@ -22,7 +22,6 @@
 
 .projectTable tbody td {
   padding: 16px;
-  border-bottom: 1px solid #eee;
   vertical-align: middle;
   transition: background-color 0.3s ease;
 }
