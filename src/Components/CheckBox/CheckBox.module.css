@@ -11,3 +11,13 @@
 .taskLink:hover {
   color: #4e3e00;
 }
+.deadline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 140px;
+}
+.clock {
+  width: 20px;
+  cursor: pointer;
+}

@@ -46,9 +46,9 @@ const ProfilePage = () => {
     interactionsChartRef.current = new Chart(interactionsCtx, {
       type: 'bar',
       data: {
-        labels: ['0-10', '11-50', '51-100', '101-500', '500+'],
+        labels: ['May', 'Jun', 'Jul', 'Aug', 'Sep'],
         datasets: [{
-          label: 'Number of Addresses',
+          label: 'Number of Interaction',
           data: [300, 450, 320, 280, 120],
           backgroundColor: '#c78b00ba'
         }]
@@ -116,11 +116,10 @@ const ProfilePage = () => {
             <div className={styles.chartContainer}>
               <canvas id="scoreChart"></canvas>
             </div>
-            <h3>Number of addresses by total interactions</h3>
+            <h3>Number of monthly interation</h3>
             <div className={styles.chartContainer}>
               <canvas id="interactionsChart"></canvas>
             </div>
-            <p>15% increase from last week</p>
           </div>
 
           <div className={styles.walletCard}>
@@ -186,6 +185,10 @@ const ProfilePage = () => {
             <canvas id="analysisChart"></canvas>
           </div>
           <h3>Portfolio Distribution</h3>
+          <div className={styles.protocol}>
+              <h4>Total Assets</h4>
+              <p>$294</p>
+          </div>
           <div className={styles.protocols}>
             <div className={styles.protocol}>
               <h4>Wallet</h4>
@@ -193,7 +196,7 @@ const ProfilePage = () => {
             </div>
             <div className={styles.protocol}>
               <h4>Kamino</h4>
-              <p>$242</p>
+              <p>$255</p>
             </div>
             <div className={styles.protocol}>
               <h4>Jupiter</h4>
